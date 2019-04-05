@@ -37,7 +37,7 @@ libusbp_error * libusbp_serial_port_create(
     // easy for the user to address it using an an ifdef.  Also, we might make
     // this function more flexible in the future if we need to handle different
     // types of serial devices with different drivers or interface layouts.
-    interface_number += 1;
+    // interface_number += 1;
 
     libusbp_error * error = NULL;
 
